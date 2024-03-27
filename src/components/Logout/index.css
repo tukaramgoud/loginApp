@@ -1,0 +1,12 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.button {
+  background-color: #f8fafc;
+  padding: 10px;
+  color: #303150;
+  border-radius: 10px;
+  width: 130px;
+  font-family: Roboto;
+  font-weight: 600;
+  cursor: pointer;
+}
