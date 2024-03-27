@@ -8,3 +8,13 @@
   justify-content: center;
   align-items: center;
 }
+.sub-container {
+  height: 500px;
+  width: 500px;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}

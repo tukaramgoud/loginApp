@@ -16,12 +16,14 @@ class Home extends Component {
     const {isTrue} = this.state
     return (
       <div className="background-container">
-        <Message msg={isTrue} />
-        {isTrue ? (
-          <Logout isButtonClicked={this.knowStatus} />
-        ) : (
-          <Login isButtonClicked={this.knowStatus} />
-        )}
+        <div className="sub-container">
+          <Message msg={isTrue} />
+          {isTrue ? (
+            <Logout isButtonClicked={this.knowStatus} />
+          ) : (
+            <Login isButtonClicked={this.knowStatus} />
+          )}
+        </div>
       </div>
     )
   }
